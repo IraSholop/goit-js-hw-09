@@ -16,3 +16,57 @@ img {
   display: block;
   max-width: 100%;
 }
+.task01{
+  display: flex;
+  justify-content: center;
+}
+.task1_btn{
+   border: none;
+   padding: 25px 30px;
+   margin-right: 20px;
+   font-size: 26px;
+   cursor: pointer;
+}
+.task2_input{
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.task2_btn{
+  padding: 4px 10px;
+  font-size: 16px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.timer{
+  display: flex;
+  margin-top: 15px;
+}
+.field{
+  text-align: center;
+  margin-right: 20px;
+}
+.value{
+  font-size: 40px;
+  display: block;
+}
+.form{
+  display: flex;
+  align-items: flex-end;
+}
+.task3_label{
+   display: flex;
+   flex-direction: column; 
+   margin-right: 15px;
+  }
+.task3_input{
+  width: 170px;
+  height: 27px;
+  font-size: 16px;
+  cursor: auto;
+}
+.task3_btn{
+   height: 30px;
+   cursor: pointer;
+}
