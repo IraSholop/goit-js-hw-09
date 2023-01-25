@@ -24,6 +24,7 @@ function onResultMessage(evt) {
       });
     delay += Number(delayStep.value);
   }
+  evt.target.reset();
 }
 
 function createPromise(position, delay) {
